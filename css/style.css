@@ -837,6 +837,7 @@
   .calculator-descr span {
    background: var(--c-accent);
    padding: 5px;
+   z-index: 2;
   }
 
   .calculator-descr .calculator-descr-accent {
@@ -1423,7 +1424,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 1200px;
     justify-content: center;
   }
   .number {
@@ -1540,7 +1540,6 @@
     flex-direction: row;
     align-items: flex-start;
     padding: 130px 5px 140px 5px;
-    width: 100%;
   }
   .container .container-left {
    padding: 0;
